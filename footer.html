@@ -1,0 +1,35 @@
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="copywrite">
+            <p>© 2016 All Rights Reserved. Design by Paulo Serrano</p>
+        </div>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="index.php">DIRECÇÃO</a></li>
+                <li><a href="boindex.php">ADMIN</a></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(".demo1").bootstrapNews({
+            newsPerPage: 3,
+            autoplay: true,
+            pauseOnHover:true,
+            direction: 'down',
+            newsTickerInterval: 4000,
+            onToDo: function () {
+                //console.log(this);
+            }
+        });
+
+
+    });
+</script>
+<!-- //footer -->
+</body>
+</html>
